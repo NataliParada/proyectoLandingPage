@@ -1,0 +1,46 @@
+.centrarCabecera {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrarCabecera h1 {
+    font-size: 4em;
+}
+
+#imagenFondo {
+    width: 80%;
+    height: 200px;
+    background-image: url(../imgs/encabazado.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Libros {
+    margin-left: 15%;
+
+}
+
+.Libros p {
+    margin-left: 50px;
+    font-size: 1.5em;
+}
+
+.Libros img {
+    width: 200px;
+}
+
+footer {
+    background-color: brown;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+footer p, a {
+    font-size: 1.5em;
+    color: white;
+}
